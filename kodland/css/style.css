@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+header {
+  background-color: #f86762;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif; /* Модный шрифт */
+  text-align: center; /* Центрирование текста */
+  padding: 20px 10px; /* Отступы сверху, снизу и по бокам */
+  border-bottom: 3px solid #ff4d4d; /* Линия внизу */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень */
+}
+
+header h1 {
+  font-size: 2.5rem; /* Размер основного заголовка */
+  margin: 0; /* Убираем отступы */
+  letter-spacing: 1px; /* Расстояние между буквами */
+  text-transform: uppercase; /* Заглавные буквы */
+}
+
+p {
+  font-size: 25px; 
+  margin: 10px 0; 
+  padding-left: 10px;
+}
+
+header nav a {
+  margin: 0 15px; 
+  text-decoration: none; 
+  color: #ffffff; 
+  font-weight: bold; 
+  font-size: 16px; 
+  transition: color 0.3s ease, transform 0.2s ease; /* Эффекты при наведении */
+}
+
+header nav a:hover {
+  color: #70aada;
+  transform: scale(1.3); /* Увеличение ссылки при наведении */
+}
+  
+  h2, h3 {
+    font-size: 50px;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .banner {
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  body {
+      background-image: url(https://i.pinimg.com/564x/65/3e/6d/653e6dc53d25084f1a7b82dbaa7c65ab.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+  }
+  
+  .banner img {
+    max-height: 450px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .banner h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .services, .about, .contacts {
+    background-color: rgb(226, 220, 220);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .services ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .services li {
+    padding: 10px 0;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+  }
+  
+  .about {
+    background-size: 50px 50px;
+    background-repeat: repeat;
+  }
+
+  .text {
+    text-align: left; 
+  }
+
+  .container img {
+    display: inline-block;
+  }
+  
+  .image-container {
+    padding-left: 100px;
+    background-color: white; 
+    border-width: 1px; 
+    border-style: solid;
+    border: 5px solid grey;
+    border-radius: 20px;
+  }
+  
+  .image-row {
+    display: flex; /* Используем Flexbox для выравнивания изображений */
+    justify-content: center; /* Центрируем изображения */
+    gap: 20px; /* Расстояние между изображениями */
+    margin: 20px;
+  }
+  
+  .image-row img {
+    width: 440px; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; /* Чтобы ничего не выходило за границы */
+  }
+
+  .p-special {
+    font-size: 25px;
+    padding-left: 23px;
+  }
